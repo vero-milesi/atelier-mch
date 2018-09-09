@@ -115,8 +115,8 @@ box-sizing: border-box;
 
 #page {
 background: linear-gradient(
-    rgba(0, 0, 0, 0.7), 
-    rgba(0, 0, 0, 0.7)
+    rgba(0, 0, 0, 0.8), 
+    rgba(0, 0, 0, 0.8)
     ),url(/img/fond-1.jpg);
     background-size:cover;
     background-repeat:no-repeat;
@@ -243,7 +243,7 @@ margin-right: 2% ;
 }
 
  .header-titre .devis {
-     font-size: 3rem
+     font-size: 2rem
  }
 
 
@@ -259,7 +259,7 @@ text-align: justify
 /* background-color: rgba(0,0,0,0.5); */
 
 }
-.aside-intro p:hover{
+.aside-intro .par4:hover{
     color:orange;
    
 }
@@ -288,7 +288,7 @@ text-align: justify
 
 .engmts{
     /* background-color: orange; */
-    background-image: linear-gradient(#D76b00,#FFb164, #D76b00);
+    background-image: linear-gradient(#D76b00,white, #D76b00);
     color:black;
     margin:1rem;
     padding:1rem
