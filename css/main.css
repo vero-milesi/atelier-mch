@@ -99,377 +99,330 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-  
-
-   
-
-
-body, html { 
-box-sizing: border-box;
-
-
-
-   
-    
+   body, html {
+	box-sizing: border-box;
 }
-
 #page {
-background: linear-gradient(
-    rgba(0, 0, 0, 0.7), 
-    rgba(0, 0, 0, 0.7)
-    ),url(/img/fond-1.jpg);
-    background-size:cover;
-    background-repeat:no-repeat;
-
+	background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(/img/fond-1.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
 }
 #page header{
-    background-image: linear-gradient(#144657,#2E748B, #144657);
+	background-image: linear-gradient(#144657,#2E748B, #144657);
 }
 .flex {
-display: flex;
-flex-flow: row wrap;
-width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+	width: 100%;
 }
 .grid {
-    display: grid;
-    grid-gap: 0;
-    grid-template-columns: repeat(12, 1fr);
-    }
+	display: grid;
+	grid-gap: 0;
+	grid-template-columns: repeat(12, 1fr);
+}
 hr{
-    margin-left:1rem;
-    width: 63%
-    
+	margin-left:1rem;
+	width: 63%
 }
 p{
-    font-family: Roboto;
+	font-family: Roboto;
 }
-.black{color:black}
-
+.black{
+	color:black
+}
 /* ---------------MENU---------------- */
 /* nav > ul{
-    display: none;
-     background-color: forestgreen;
- }
- nav li{
-    list-style-type: none;
-    padding: 25px;
-     background-color: black;
-     
- }
- nav input[type=checkbox]{
-    display: none;
- }
- nav input[type=checkbox]:checked ~ ul{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
- }
- 
- .menu-mobile{
-     background-color: orange;
-     padding: 1rem 1rem;
- 
- }
- .menu-mobile img{
-     width: 30px;
- }
- nav{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;   
-     background-color: red;
- }
- nav a{
-    text-decoration: none;
-    font-size: 1.2rem;
-     background-color: yellow;
-     padding: 1rem 1rem;
- }
- nav > ul > li >a{
-    color: darkblue;
-    
- }
- 
- 
-  @media screen and (min-width: 720px){
-    
-     main{
-         width: 80%;
-         margin: auto;
-     }
-   
-     .menu-mobile {
-         display: none;
-     }
-     nav ul{
-         display: flex;
-         justify-content: center;
-         width: 100%;
-     } */
-/* ---------HEADER----------- */
-
-.header{
-
-    align-items: center;
-    padding:0rem;
-    
+	display: none;
+	background-color: forestgreen;
 }
-.header-logo {
-min-width: 30%;
-width: calc((600px - 100%)*1000);
-max-width: 100%;
+nav li{
+	list-style-type: none;
+	padding: 25px;
+	background-color: black;
 }
-
-.header-logo img {
-width: 50%;
-margin: 1rem 0 0.5rem 1rem;
+nav input[type=checkbox]{
+	display: none;
 }
-
-.header-titre{
-background-image: linear-gradient(#525252,white,#525252);
-width: 100%;
-display: flex;
-align-items: center;
-justify-content: flex-end;
+nav input[type=checkbox]:checked ~ ul{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	align-items: center;
 }
-.header-titre .padright{ 
-margin-right: 2% ;
+.menu-mobile{
+	background-color: orange;
+	padding: 1rem 1rem;
 }
-.header-titre p{
-    color:orange;
-    text-shadow: -1px 1px 1px#090909 
+.menu-mobile img{
+	width: 30px;
 }
-
- .header-titre .devis {
-     font-size: 3rem
- }
-
-
-/* ----------ASIDE-------------------- */
-.aside-intro {
-min-width: 30%;
-width: calc((800px - 100%)*1000);
-max-width: 100%; 
-margin-left: 1rem;
-margin-top:0.9rem;
-text-align: justify
-
-/* background-color: rgba(0,0,0,0.5); */
-
+nav{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	background-color: red;
 }
-/* .aside-intro p:hover{
-    color:orange;
-   
-} */
-
-.title-font {
-    font-family: "Wire One";
-    font-size: 2rem;
-    margin: 0;
-    font-weight: bolder;
-    color:#E6E5E0;
+nav a{
+	text-decoration: none;
+	font-size: 1.2rem;
+	background-color: yellow;
+	padding: 1rem 1rem;
 }
-
-.title-intro {
-    font-size:2.5rem; 
-    letter-spacing: 0.3rem;
-    padding-top:6rem;
-    padding-left: 1rem;
+nav > ul > li >a{
+	color: darkblue;
 }
-.par{
-    font-size: 1.2rem;
-    padding-left: 1rem;
-    font-weight: 300;
-   
+@media screen and (min-width: 720px){
+	main{
+		width: 80%;
+		margin: auto;
+	}
+	.menu-mobile {
+		display: none;
+	}
+	nav ul{
+		display: flex;
+		justify-content: center;
+		width: 100%;
+	}
+	*/
+	/* ---------HEADER----------- */
+	.header{
+		align-items: center;
+		padding:0rem;
+	}
+	.header-logo {
+		min-width: 30%;
+		width: calc((600px - 100%)*1000);
+		max-width: 100%;
+	}
+	.header-logo img {
+		width: 50%;
+		margin: 1rem 0 0.5rem 1rem;
+	}
+	.header-titre{
+		background-image: linear-gradient(#525252,white,#525252);
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+	}
+	.header-titre .padright{
+		margin-right: 2% ;
+	}
+	.header-titre p{
+		color:#154859;
+		
 }
-.par1,.par4{font-weight: 700}
-
-.engmts{
-    /* background-color: orange; */
-    background-image: linear-gradient(#D76b00,#FFb164, #D76b00);
-    color:black;
-    margin:1rem;
-    padding:1rem
+	.header-titre .devis {
+		font-size: 2.5rem
 }
-.engmts ul{
-    padding:0 0.5rem 0.5rem 2rem;
+	/* ----------ASIDE-------------------- */
+	.aside-intro {
+		min-width: 30%;
+		width: calc((800px - 100%)*1000);
+		max-width: 100%;
+		margin-left: 1rem;
+		margin-top:0.9rem;
+		text-align: justify;
+		padding-right: 1rem;
+		background-color:rgba(0,0,0,0.5);
+	}
+	.title-font {
+		font-family: "Wire One";
+		font-size: 2rem;
+		margin: 0;
+		font-weight: bolder;
+		color:#E6E5E0;
+	}
+	.title-intro {
+		font-size:2.5rem;
+		letter-spacing: 0.3rem;
+		padding-top:6rem;
+		padding-left: 1rem;
+	}
+	.par{
+		font-size: 1.2rem;
+		padding-left: 1rem;
+		font-weight: 100;
+		font-family: roboto;
+	}
+	.par1,.par4{
+		font-weight: 500
 }
-.engmts ul li{
-    line-height: 1rem
+	.par1-titre{
+		font-family: 'Wire One';
+		font-size:2.5rem
 }
-/* ------------MAIN------------- */
-
-.galerie {
-display: flex;
-min-width: 68%;
-width: calc((800px - 100%)*1000);
-max-width: 100%;
-justify-content: center;
-margin: auto ;
-
+	.engmts{
+		background-color: rgba(24,78,96,0.5);
+		color:white;
+		margin:1rem;
+		padding:1rem
 }
-.galerie img{
-width: 100%;
+	.engmts ul{
+		padding:0 0.5rem 0.5rem 2rem;
+	}
+	.engmts ul li{
+		line-height: 1rem
 }
-
-ul  {
-list-style: none;
-padding: 0;
+	/* ------------MAIN------------- */
+	.galerie {
+		display: flex;
+		min-width: 68%;
+		width: calc((800px - 100%)*1000);
+		max-width: 100%;
+		justify-content: center;
+		margin: auto ;
+	}
+	.galerie img{
+		width: 100%;
+	}
+	ul {
+		list-style: none;
+		padding: 0;
+	}
+	.galerie ul {
+		position: relative;
+		min-width: 50%;
+		width: calc((800px - 100%)*1000);
+		max-width: 100%;
+	}
+	.legende {
+		background: #fff;
+		grid-column: 1 / -1;
+		grid-row: 2;
+		transition: all 1s;
+		width: 100%;
+		display: flex;
+		justify-content: flex-start;
+		flex-direction: column;
+	}
+	.legende p {
+		margin:0;
+		padding-left:1rem;
+		padding-bottom: 0.5rem;
+	}
+	.legende .title-font{
+		margin-top: 1rem;
+		font-weight: 900;
+		line-height: 2rem;
+		letter-spacing: 0.1rem;
+		color:black;
+	}
+	.bandeau{
+		align-items:center;
+	}
+	.bandeau{
+		font-weight: 900;
+		line-height: 2rem;
+		letter-spacing: 0.15rem;
+	}
+	img {
+		grid-column: 1 / -1;
+		grid-row: 1;
+	}
+	.bandeau {
+		grid-column: span 12;
+		display: flex;
+		justify-content: space-between;
+		background-image: linear-gradient(#144657,#2E748B, #144657);
+		/* background: #FFA500;
+		*/
+		/* background-image: linear-gradient(#D76b00,#FFb164, #D76b00);
+		*/
+		padding: 0.5rem 0 0.5rem 0;
+	}
+	.mon-image {
+		width: 12%;
+		margin-left:1rem
 }
-
-.galerie ul  {
-position: relative;
-min-width: 50%;
-width: calc((800px - 100%)*1000);
-max-width: 100%;
-
+	.aggr{
+		width: 15%
 }
-
-.legende {
-background: #fff;
-grid-column: 1 / -1;
-grid-row: 2;
-transition: all 1s;
-width: 100%;
-display: flex;
-justify-content: flex-start;
-flex-direction: column;
+	p1{
+		font-family: Roboto;
+		text-indent: 3rem
 }
-
-.legende p {
-margin:0;
-padding-left:1rem;
-padding-bottom: 0.5rem;
+	.white{
+		color:#E6E5E0;
+	}
+	/* ----------------------FOOTER-------- */
+	#page footer{
+		background-image: linear-gradient(#144657,#2E748B, #144657);
+	}
+	.coord{
+		color:white;
+		line-height: 0.5rem;
+		padding:1rem;
+	}
+	.name{
+		font-family: "Wire One";
+		font-size: 2rem;
+		font-weight: 900;
+		letter-spacing: 6px;
+		margin:0;
+	}
+	.under-name{
+		font-style: oblique
 }
-
-.legende .title-font{
-    margin-top: 1rem;
-    font-weight: 900;
-    line-height: 2rem;
-    letter-spacing: 0.1rem;
-   color:black;
+	a{
+		text-decoration: none;
+		color:orange;
+		font-family: roboto;
+	}
+	a:hover {
+		background-color: orange;
+		color: black;
+		padding:0.2rem
 }
-
-.bandeau{align-items:center;
+	.legende {
+		background: black;
+		grid-row: 1;
+		height: 100%;
+		opacity: 0;
+		color: white;
+	}
+	figure:hover .legende {
+		opacity: .8;
+	}
+	.legende .title-font{
+		color: white
 }
-
-.bandeau{
-    font-weight: 900;
-    line-height: 2rem;
-    letter-spacing: 0.15rem; 
+	@media only screen and (max-width : 748px){
+		/* .fleche{
+			width:0px;
+			border:20px solid transparent;
+			border-left:15px solid white;
+		}
+		*/
+		.header{
+			align-content: center;
+		}
+		.header-titre{
+			margin:0;
+		}
+		.header-titre p{
+			font-size: 1.5rem
 }
-
-img {
-grid-column: 1 / -1;
-grid-row: 1;
+		.par2,.par3{
+			display: none
 }
-
-.bandeau {
-grid-column: span 12;
-display: flex;
-justify-content: space-between;
-background-image: linear-gradient(#144657,#2E748B, #144657);
-/* background: #FFA500; */
-/* background-image: linear-gradient(#D76b00,#FFb164, #D76b00); */
-padding: 0.5rem 0 0.5rem 0;
+		.header-titre {
+			background-color: green;
+		}
+		.header-titre .devis{
+			font-size: 2rem;
+			text-align: center;
+			width: 100%;
+		}
+		.header-titre .padright{
+			margin-right: 0
 }
-
-.mon-image {
-width: 12%;
-margin-left:1rem
+		#page > main > div.aside-intro.white > p.title-font.title-intro{
+			padding-top:1rem
 }
-.aggr{
-    width: 15%
-}
-p1{
-    font-family: Roboto;
-    text-indent: 3rem
-}
-.white{
-    color:#E6E5E0;
-}
-/* ----------------------FOOTER-------- */
-
-#page footer{
-    background-image: linear-gradient(#144657,#2E748B, #144657);
-
-}
-.coord{
-    color:white;
-    line-height: 0.5rem;
-    padding:1rem;
-}
-.name{font-family: "Wire One";
-font-size: 2rem;
-font-weight: 900;
-margin:0;
-}
-
-.under-name{
-    font-style: oblique}
-
-a{text-decoration: none;
-color:orange;
-font-family: roboto}
-a:hover {
-    background-color: orange;
-    color: black;
-    padding:0.2rem
-    }
-
-
-
-
-    .legende {
-    background: black;
-    grid-row: 1;
-    height: 100%;
-    opacity: 0;
-    color: white;
-    }
-    figure:hover .legende {
-    opacity: .8;
-    }
-    .legende .title-font{color: white}
-   
-    
-
-
-
-@media only screen and (max-width : 480px){
-    
-    /* .fleche{
-        width:0px;
-    border:20px solid transparent;
-    border-left:15px solid white;
-    } */
-    .header{
-        align-content: center;
-    }
-  
-    .header-titre{
-        margin:0;
-    }  
-
-    .header-titre p{
-        font-size: 1.5rem
-    }
-    .par2,.par3{display: none}
- .header-titre {
-     background-color: green;
-    
- }
- .header-titre .devis{
-     font-size: 2rem;
-    text-align: center;  
- width: 100%;
-}
- .header-titre .padright{margin-right: 0}
-
- #page > main > div.aside-intro.white > p.title-font.title-intro{padding-top:1rem}
-}
+	}
 
 
 
