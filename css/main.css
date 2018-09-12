@@ -130,65 +130,10 @@ p{
 .black{
 	color:black
 }
-/* ---------------MENU---------------- */
-/* nav > ul{
-	display: none;
-	background-color: forestgreen;
-}
-nav li{
-	list-style-type: none;
-	padding: 25px;
-	background-color: black;
-}
-nav input[type=checkbox]{
-	display: none;
-}
-nav input[type=checkbox]:checked ~ ul{
-	display: flex;
-	flex-direction: column;
-	width: 100%;
-	align-items: center;
-}
-.menu-mobile{
-	background-color: orange;
-	padding: 1rem 1rem;
-}
-.menu-mobile img{
-	width: 30px;
-}
-nav{
-	width: 100%;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: flex-end;
-	background-color: red;
-}
-nav a{
-	text-decoration: none;
-	font-size: 1.2rem;
-	background-color: yellow;
-	padding: 1rem 1rem;
-}
-nav > ul > li >a{
-	color: darkblue;
-}
-@media screen and (min-width: 720px){
-	main{
-		width: 80%;
-		margin: auto;
-	}
-	.menu-mobile {
-		display: none;
-	}
-	nav ul{
-		display: flex;
-		justify-content: center;
-		width: 100%;
-	}
-	*/
+
 	/* ---------HEADER----------- */
 	.header{
-		align-items: center;
+		align-items:flex-end;
 		padding:0rem;
 	}
 	.header-logo {
@@ -197,29 +142,25 @@ nav > ul > li >a{
 		max-width: 100%;
 	}
 	.header-logo img {
-		width: 50%;
-		margin: 1rem 0 0.5rem 1rem;
+		width: 60%;
+		
 	}
-	.header-titre{
+	.header-spacer{
 		background-image: linear-gradient(#525252,white,#525252);
 		width: 100%;
-		display: flex;
-		align-items: center;
+		height: 2rem;
+	
 		justify-content: flex-end;
 	}
-	.header-titre .padright{
-		margin-right: 2% ;
+	
+	#page > header > p
+	{font-size: 2.5rem;
+		padding-left: 5rem
+
 	}
-	.header-titre p{
-		color:#154859;
-		
-}
-	.header-titre .devis {
-		font-size: 2.5rem
-}
 	/* ----------ASIDE-------------------- */
 	.aside-intro {
-		min-width: 30%;
+		min-width: 28%;
 		width: calc((800px - 100%)*1000);
 		max-width: 100%;
 		margin-left: 1rem;
@@ -230,9 +171,16 @@ nav > ul > li >a{
 	}
 	.title-font {
 		font-family: "Wire One";
-		font-size: 2rem;
+		font-size: 1.8rem;
 		margin: 0;
 		font-weight: bolder;
+		color:#E6E5E0;
+	
+	}
+	.title-font-strong{
+		font-family: "Wire One";
+		font-size: 2.6rem;
+		margin: 0;
 		color:#E6E5E0;
 	}
 	.title-intro {
@@ -326,11 +274,11 @@ nav > ul > li >a{
 		grid-column: span 12;
 		display: flex;
 		justify-content: space-between;
-		background-image: linear-gradient(#144657,#2E748B, #144657);
+		/* background-image: linear-gradient(#144657,#2E748B, #144657); */
 		/* background: #FFA500;
 		*/
-		/* background-image: linear-gradient(#D76b00,#FFb164, #D76b00);
-		*/
+		background-image: linear-gradient(#DA771A,#F28A26, #DA771A); 
+		
 		padding: 0.5rem 0 0.5rem 0;
 	}
 	.mon-image {
@@ -408,13 +356,11 @@ nav > ul > li >a{
 		.par2,.par3{
 			display: none
 }
-		.header-titre {
-			background-color: green;
-		}
-		.header-titre .devis{
+#page > header > p{
 			font-size: 2rem;
 			text-align: center;
 			width: 100%;
+			padding:0
 		}
 		.header-titre .padright{
 			margin-right: 0
