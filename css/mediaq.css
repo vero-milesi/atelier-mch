@@ -7,10 +7,6 @@
         justify-content: center;
         align-content: center;
     }
-
-    .par2,.par3{
-        display: none
-}
 #page > header > p{
         font-size: 2rem;
         text-align: center;
@@ -18,25 +14,41 @@
         padding:0
     }
 
-    #page > main > div.aside-intro.white > p.title-font.title-intro{
-        padding-top:1rem
+/* --------ASIDE---------------- */
+    .par2,.par3{
+        display: none
+}
+#page > main > div.aside-intro.white > div > ul{
+    padding-left: 0;
+}
+
+.engmts{
+    margin-top:0
 }
    
    
    /*----------------4 sections-----------  */
    
     .grid{
-       grid-template-columns: 20% 80%;
-       grid-template-rows: 1fr;
+       grid-template-columns: 25% 65%;}
+    
+    #page > main > div.galerie.flex > ul > li > figure{
+        width:100%;
+      
    }
    #page > main > div.galerie.flex > ul > li > figure > img{
        grid-column: 1;
        height: 100%;
    }
    #page > main > div.galerie.flex > ul > li > figure > div.bandeau.flex{
-       grid-column: 2
+       grid-column: 2;
+       
    }
    #page > main > div.galerie.flex > ul > li > figure > div.legende.flex{
        display:none}
-  
+
+  .bandeau-title > p{
+      font-size:2rem
+  }
+ 
 }

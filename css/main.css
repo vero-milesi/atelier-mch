@@ -204,19 +204,20 @@ p{
 }
 	.par1-titre{
 		font-family: 'Wire One';
-		font-size:2.5rem
+		font-size:2.5rem;
+		margin-top:0;
 }
 	.engmts{
 		background-color: rgba(24,78,96,0.5);
 		color:white;
 		margin:1rem;
-		padding:1rem
+		padding:1rem;
+		margin-top:6.2rem;
 }
-	.engmts ul{
-		padding:0 0.5rem 0.5rem 2rem;
-	}
+
 	.engmts ul li{
-		line-height: 1rem
+		line-height: 1.5rem;
+	
 }
 	/* ------------MAIN------------- */
 	.galerie {
@@ -346,10 +347,6 @@ p{
 	.legende .title-font{
 		color: white
 }
-	@media only screen and (max-width : 748px){
-	
-
-	}
 
 
 
