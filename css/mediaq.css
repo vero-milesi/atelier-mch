@@ -1,47 +1,42 @@
 @media only screen and (max-width : 748px){
     
-   .grid{
+    /* -----------HEADER------------------- */
+    #page > header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .par2,.par3{
+        display: none
+}
+#page > header > p{
+        font-size: 2rem;
+        text-align: center;
+        width: 100%;
+        padding:0
+    }
+
+    #page > main > div.aside-intro.white > p.title-font.title-intro{
+        padding-top:1rem
+}
+   
+   
+   /*----------------4 sections-----------  */
+   
+    .grid{
        grid-template-columns: 20% 80%;
        grid-template-rows: 1fr;
    }
-   #page > main > div.galerie.flex > ul:nth-child(1) > li > figure > img{
+   #page > main > div.galerie.flex > ul > li > figure > img{
        grid-column: 1;
        height: 100%;
    }
-   #page > main > div.galerie.flex > ul:nth-child(1) > li > figure > div.bandeau.flex{
+   #page > main > div.galerie.flex > ul > li > figure > div.bandeau.flex{
        grid-column: 2
    }
-   #page > main > div.galerie.flex > ul:nth-child(1) > li > figure > div.legende.flex{
-       display:none
-   }
-   #page > main > div.galerie.flex > ul:nth-child(2) > li > figure > img{
-    grid-column: 1;
-    height: 100%;
-}
-#page > main > div.galerie.flex > ul:nth-child(2) > li > figure > div.bandeau.flex{
-    grid-column: 2
-}
-#page > main > div.galerie.flex > ul:nth-child(2) > li > figure > div.legende.flex{
-    display:none
-}
-#page > main > div.galerie.flex > ul:nth-child(3) > li > figure > img{
-    grid-column: 1;
-    height: 100%;
-}
-#page > main > div.galerie.flex > ul:nth-child(3) > li > figure > div.bandeau.flex{
-    grid-column: 2
-}
-#page > main > div.galerie.flex > ul:nth-child(3) > li > figure > div.legende.flex{
-    display:none
-}
-#page > main > div.galerie.flex > ul:nth-child(4) > li > figure > img{
-    grid-column: 1;
-    height: 100%;
-}
-#page > main > div.galerie.flex > ul:nth-child(4) > li > figure > div.bandeau.flex{
-    grid-column: 2
-}
-#page > main > div.galerie.flex > ul:nth-child(4) > li > figure > div.legende.flex{
-    display:none
-}
+   #page > main > div.galerie.flex > ul > li > figure > div.legende.flex{
+       display:none}
+  
 }

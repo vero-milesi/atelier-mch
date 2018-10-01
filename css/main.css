@@ -133,8 +133,9 @@ p{
 
 	/* ---------HEADER----------- */
 	.header{
-		align-items: flex-end;
-		padding:0rem;
+		align-items: center;
+		justify-content: space-between;
+		
 	
 	}
 	.header-logo {
@@ -154,10 +155,10 @@ p{
 	}
 	
 	#page > header > p
-	{font-size: 2.5rem;
-		padding-left: 3rem;
-		color:#FB952F;
-		text-shadow: 1px 0px 0px black;
+	{font-size: 3rem;
+		padding-right: 4rem;
+		color:white;
+	 
 
 	}
 	/* ----------ASIDE-------------------- */
@@ -346,36 +347,8 @@ p{
 		color: white
 }
 	@media only screen and (max-width : 748px){
-		/* .fleche{
-			width:0px;
-			border:20px solid transparent;
-			border-left:15px solid white;
-		}
-		*/
-		.header{
-			align-content: center;
-		}
-		.header-titre{
-			margin:0;
-		}
-		.header-titre p{
-			font-size: 1.5rem
-}
-		.par2,.par3{
-			display: none
-}
-#page > header > p{
-			font-size: 2rem;
-			text-align: center;
-			width: 100%;
-			padding:0
-		}
-		.header-titre .padright{
-			margin-right: 0
-}
-		#page > main > div.aside-intro.white > p.title-font.title-intro{
-			padding-top:1rem
-}
+	
+
 	}
 
 
