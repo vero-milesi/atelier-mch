@@ -1,0 +1,47 @@
+@media only screen and (max-width : 748px){
+    
+   .grid{
+       grid-template-columns: 20% 80%;
+       grid-template-rows: 1fr;
+   }
+   #page > main > div.galerie.flex > ul:nth-child(1) > li > figure > img{
+       grid-column: 1;
+       height: 100%;
+   }
+   #page > main > div.galerie.flex > ul:nth-child(1) > li > figure > div.bandeau.flex{
+       grid-column: 2
+   }
+   #page > main > div.galerie.flex > ul:nth-child(1) > li > figure > div.legende.flex{
+       display:none
+   }
+   #page > main > div.galerie.flex > ul:nth-child(2) > li > figure > img{
+    grid-column: 1;
+    height: 100%;
+}
+#page > main > div.galerie.flex > ul:nth-child(2) > li > figure > div.bandeau.flex{
+    grid-column: 2
+}
+#page > main > div.galerie.flex > ul:nth-child(2) > li > figure > div.legende.flex{
+    display:none
+}
+#page > main > div.galerie.flex > ul:nth-child(3) > li > figure > img{
+    grid-column: 1;
+    height: 100%;
+}
+#page > main > div.galerie.flex > ul:nth-child(3) > li > figure > div.bandeau.flex{
+    grid-column: 2
+}
+#page > main > div.galerie.flex > ul:nth-child(3) > li > figure > div.legende.flex{
+    display:none
+}
+#page > main > div.galerie.flex > ul:nth-child(4) > li > figure > img{
+    grid-column: 1;
+    height: 100%;
+}
+#page > main > div.galerie.flex > ul:nth-child(4) > li > figure > div.bandeau.flex{
+    grid-column: 2
+}
+#page > main > div.galerie.flex > ul:nth-child(4) > li > figure > div.legende.flex{
+    display:none
+}
+}
