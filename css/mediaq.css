@@ -1,7 +1,7 @@
 @media only screen and (max-width : 748px){
     
     /* -----------HEADER------------------- */
-    #page > header{
+    #page header{
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -15,7 +15,7 @@
         width: 100%;
         padding:0
     }
-    #page > header > div.header-logo > img{
+    .header-logo{
        
     }
 /* --------ASIDE---------------- */
