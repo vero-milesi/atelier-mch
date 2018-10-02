@@ -37,7 +37,9 @@
    /*----------------4 sections-----------  */
    
     .grid{
-       grid-template-columns: 25% 65%;}
+       grid-template-columns: 25% 65%;
+      
+    }
     
     #page > main > div.galerie.flex > ul > li > figure{
         width:100%;
@@ -49,13 +51,28 @@
    }
    #page > main > div.galerie.flex > ul > li > figure > div.bandeau.flex{
        grid-column: 2;
-       
+       grid-row: 1;   
    }
+
    #page > main > div.galerie.flex > ul > li > figure > div.legende.flex{
-       display:none}
+       grid-column:2;
+    grid-row:1;
+   
+   }
 
   .bandeau-title > p{
-      font-size:2rem
+      font-size:2.5rem;
+      line-height: 2.5rem
   }
- 
+  .bandeau .title-font-strong{
+      font-size: 3.5rem
+  }
+  .legende .title-font {
+    display: none;
+}
+hr{display:none;}
+
+.mon-image {
+    width: 20%;
+    margin-left:1rem
 }

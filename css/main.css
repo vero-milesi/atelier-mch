@@ -250,8 +250,6 @@ p{
 		display: flex;
 		justify-content: flex-start;
 		flex-direction: column;
-		border-top-left-radius: 10px;
-		border-top-right-radius: 10px
 	}
 	.legende p {
 		margin:0;
@@ -284,11 +282,7 @@ p{
 		grid-column: span 12;
 		display: flex;
 		justify-content: space-between;
-		/* background-image: linear-gradient(#144657,#2E748B, #144657); */
-		/* background: #FFA500;
-		*/
 		background-image: linear-gradient(#DA771A,#F28A26, #DA771A); 
-		
 		padding: 0.5rem 0 0.5rem 0;
 	}
 	.mon-image {

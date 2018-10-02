@@ -1,3 +1,4 @@
+
 $(document).ready(function(){
     $('.photo img').mouseover(function(){
         $('.on').slideDown(1000)
@@ -8,3 +9,4 @@ $(document).ready(function(){
     })
     
      })
+    
