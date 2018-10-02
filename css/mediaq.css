@@ -1,100 +1,98 @@
-@media only screen and (max-width : 748px){
-    
-    /* -----------HEADER------------------- */
-    #page header{
+@media only screen and (max-width:748px) {
+    #page header {
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-content: center;
-        
-
+        justify-content: center;
     }
-#page > header > p{
-        font-size: 1.8rem;
-        text-align: center;
+
+    #page > header > p {
         width: 100%;
-        padding:0
+        padding: 0;
+        text-align: center;
+        font-size: 1.8rem;
     }
-    .header-logo{
-       
+
+    #page > main > div.aside-intro.white>p.title-font.title-intro {
+        padding-top: 1rem;
     }
-/* --------ASIDE---------------- */
-#page > main > div.aside-intro.white > p.title-font.title-intro{
-    padding-top:1rem;
-}
-.par2,.par3{
-        display: none
-}
-#page > main > div.aside-intro.white > div > ul{
-    padding-left: 0;
-}
 
-.engmts{
-    margin-top:0
-}
-   
-   
-   /*----------------4 sections-----------  */
-   
-    .grid{
-       grid-template-columns: 25% 75%;
-      
+    .par2,
+    .par3 {
+        display: none;
     }
-    
-    #page > main > div.galerie.flex > ul > li > figure{
-        max-width:100%;
-      
-   }
-   #page > main > div.galerie.flex > ul > li > figure > img{
-       grid-column: 1;
-       height: 100%;
-     
-   }
- .bandeau.flex{
-       grid-column: 2;
-       grid-row: 1; 
-       justify-content: space-around;
-   }
 
-   #page > main > div.galerie.flex > ul > li > figure > div.legende.flex{
-       grid-column:2;
-    grid-row:1;
-   
-   }
-
-  .bandeau-title > p{
-      font-size:160%;
-      line-height: 2rem
-  }
-  .bandeau .title-font-strong{
-      font-size: 230%;
-  }
-  .legende{
-      justify-content: center;
-      
-  }
-  .legende .title-font {
-    display: none;
-}
-.legende p{
-    line-height: 0.8rem
-}
-hr{display:none;}
-
-.mon-image {
-    width: 20%;
-    margin-left:1rem
-}
-}
-
-@media only screen and (max-width : 400px){
-    .bandeau-title{
-        display:none;
+    #page > main > div.aside-intro.white>div>ul {
+        padding-left: 0;
     }
-.mon-image{
-    width:50%;
-    margin-left: auto;
-    margin-right: auto 
+
+    .engmts {
+        margin-top: 0;
+    }
+
+    .grid {
+        grid-template-columns: 25% 75%;
+    }
+
+    #page > main > div.galerie.flex>ul>li>figure {
+        max-width: 100%;
+    }
+
+    #page > main > div.galerie.flex>ul>li>figure>img {
+        height: 100%;
+        grid-column: 1;
+    }
+
+    .bandeau.flex {
+        justify-content: space-around;
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    #page > main > div.galerie.flex>ul>li>figure>div.legende.flex {
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    .bandeau-title > p {
+        font-size: 160%;
+        line-height: 2rem;
+    }
+
+    .bandeau .title-font-strong {
+        font-size: 230%;
+    }
+
+    .legende {
+        justify-content: center;
+    }
+
+    .legende .title-font {
+        display: none;
+    }
+
+    .legende p {
+        line-height: .8rem;
+    }
+
+    hr {
+        display: none;
+    }
+
+    .mon-image {
+        width: 20%;
+        margin-left: 1rem;
+    }
 }
 
+@media only screen and (max-width:400px) {
+    .bandeau-title {
+        display: none;
     }
+
+    .mon-image {
+        width: 50%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
