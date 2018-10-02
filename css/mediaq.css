@@ -48,6 +48,7 @@
    #page > main > div.galerie.flex > ul > li > figure > img{
        grid-column: 1;
        height: 100%;
+     
    }
    #page > main > div.galerie.flex > ul > li > figure > div.bandeau.flex{
        grid-column: 2;
@@ -84,3 +85,13 @@ hr{display:none;}
     margin-left:1rem
 }
 }
+
+@media only screen and (max-width : 400px){
+    .bandeau-title{
+        display:none;
+    }
+.mon-image{
+    width:50%
+}
+
+    }
