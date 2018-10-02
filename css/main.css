@@ -166,11 +166,10 @@ p{
 		min-width: 28%;
 		width: calc((800px - 100%)*1000);
 		max-width: 100%;
-		margin-left: 1rem;
-		margin-top:0.9rem;
 		text-align: justify;
-		padding-right: 1rem;
 		background-color:rgba(0,0,0,0.5);
+		margin:1rem;
+		padding:1rem;
 	}
 	.title-font {
 		font-family: "Wire One";
@@ -222,7 +221,7 @@ p{
 	/* ------------MAIN------------- */
 	.galerie {
 		display: flex;
-		min-width: 68%;
+		min-width: 64%;
 		width: calc((800px - 100%)*1000);
 		max-width: 100%;
 		justify-content: center;
