@@ -50,9 +50,10 @@
        height: 100%;
      
    }
-   #page > main > div.galerie.flex > ul > li > figure > div.bandeau.flex{
+ .bandeau.flex{
        grid-column: 2;
-       grid-row: 1;  
+       grid-row: 1; 
+       justify-content: space-around;
    }
 
    #page > main > div.galerie.flex > ul > li > figure > div.legende.flex{
@@ -62,11 +63,11 @@
    }
 
   .bandeau-title > p{
-      font-size:150%;
-      line-height: 2.5rem
+      font-size:160%;
+      line-height: 2rem
   }
   .bandeau .title-font-strong{
-      font-size: 210%
+      font-size: 230%;
   }
   .legende{
       justify-content: center;
@@ -91,7 +92,9 @@ hr{display:none;}
         display:none;
     }
 .mon-image{
-    width:50%
+    width:50%;
+    margin-left: auto;
+    margin-right: auto 
 }
 
     }
