@@ -67,8 +67,15 @@
   .bandeau .title-font-strong{
       font-size: 210%
   }
+  .legende{
+      justify-content: center;
+      
+  }
   .legende .title-font {
     display: none;
+}
+.legende p{
+    line-height: 0.8rem
 }
 hr{display:none;}
 
