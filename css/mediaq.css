@@ -43,7 +43,7 @@
         grid-column: 1;
     }
 
-    .bandeau.flex {
+    .bandeau {
         justify-content: space-around;
         grid-column: 2;
         grid-row: 1;
@@ -53,7 +53,7 @@
         grid-column: 2;
         grid-row: 1;
     }
-
+  
     .bandeau-title > p {
         font-size: 160%;
         line-height: 2rem;
@@ -86,13 +86,25 @@
 }
 
 @media only screen and (max-width:400px) {
-    .bandeau-title {
+    /* .bandeau-title {
         display: none;
-    }
-
+    } */
+   
     .mon-image {
         width: 50%;
         margin-right: auto;
         margin-left: auto;
+        display: none;
     }
+
+    .bandeau {
+        grid-column: 1/-1;
+        border:1px solid white;
+    }
+    .legende{
+        grid-column:1/-1;
+        padding:10px;
+    }
+    #page > main > div.galerie.flex>ul>li>figure>div.legende.flex {
+        grid-column: 1/3;}
 }
