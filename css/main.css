@@ -48,7 +48,7 @@ p{
 		padding-left:2rem
 	}
 	.header-logo img {
-		width: 60%;
+		width: 80%;
 		
 	}
 	.header-spacer{
@@ -58,7 +58,7 @@ p{
 	}
 	
 	#page > header > p
-	{font-size: 3rem;
+	{font-size: 2rem;
 		padding-right: 4rem;
 		color:white;
 	 
@@ -201,6 +201,29 @@ p{
 	.white{
 		color:#E6E5E0;
 	}
+	.diaporama{
+		margin:0 auto;
+		min-width: 64%;
+		width: calc((800px - 100%)*1000);
+		max-width: 100%;
+		margin:1rem;
+		height: 25rem;
+		background-image: url("/img/abri-voit.jpg");
+		background-size: cover;
+		
+
+		animation-name:diapo;
+		animation-duration:9s;
+		animation-timing-function:linear;
+		animation-iteration-count:infinite;
+		animation-direction:normal;
+	}
+	@keyframes diapo{
+		0%{background-image: url("/img/abri-voit.jpg");}
+		33%{background-image: url("/img/escalier.jpg");}
+		66%{background-image: url("/img/IMG_20180609_153234.jpg");}
+	}
+
 	/* ----------------------FOOTER-------- */
 	#page footer{
 		background-image: linear-gradient(#144657,#2E748B, #144657);

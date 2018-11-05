@@ -5,14 +5,17 @@
         align-content: center;
         justify-content: center;
     }
+.header-logo{
+    margin:auto;
 
+}
     #page > header > p {
         width: 100%;
         padding: 0;
         text-align: center;
         font-size: 1.8rem;
     }
-
+   
     #page > main > div.aside-intro.white>p.title-font.title-intro {
         padding-top: 1rem;
     }
